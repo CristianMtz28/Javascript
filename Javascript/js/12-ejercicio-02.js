@@ -17,7 +17,7 @@ do {
     var number = parseInt(prompt('Introduce un número para calcular la media y la suma de los número que introduzcas; si quieres detenerte pon un número negativo', 0));
     //Definimos la variable número para recibir el valor que introduzca el usuario
 
-    if(isNaN(number)){ //Con este If comprobamos que el usuario introduzca un valor válido, en caso d eponer un carácter se contará como 0
+    if(isNaN(number)){ //Con este If comprobamos que el usuario introduzca un valor válido, en caso de poner un carácter se contará como 0
         number = 0;
     } else if (number >= 0){
         sum = sum + number; //aquí le vamos sumando a la variable sum que es 0 el valor que introduzca el usuario:
