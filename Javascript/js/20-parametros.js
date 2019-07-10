@@ -22,7 +22,7 @@ calculadora();
 
 
 /*¿Cómo usamos los parámetros? 
-Es muy sencillo para eso usaremos los parentesis que están a un lado del nombre de la función; definiremos los parámetros que recibiremos; ya con la definición de los parámetros podemos ir intuyendo que los número ya no van a ser fijos; ya que no declararemos 11 y 25 cómo en la función de arriba dónde allá sí son fijos; Entonces podemos canbiar los número por el nombre de los parámetros*/
+Es muy sencillo para eso usaremos los parentesis que están a un lado del nombre de la función; definiremos los parámetros que recibiremos; ya con la definición de los parámetros podemos ir intuyendo que los número ya no van a ser fijos; ya que no declararemos 10 y 25 cómo en la función de arriba dónde allá sí son fijos; Entonces podemos canbiar los números por el nombre de los parámetros*/
 
 //Definición de la función
 function calculator(number1, number2){
