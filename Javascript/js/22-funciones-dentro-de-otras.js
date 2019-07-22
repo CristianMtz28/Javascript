@@ -5,7 +5,7 @@
 /**Una función no forzosamente tiene que ser enorme; nosotros podemos tener una función dentro de otra función.
  * Por ejemplo en la clase anterior teníamos todo este código:
  * 
-    function calculator(number1, number2, show = false){ 
+function calculator(number1, number2, show = false){ 
 if(show == false){ 
     console.log("Suma" + (number1+number2));
     console.log("Resta" + (number1-number2));
@@ -24,7 +24,7 @@ calculator(11,10, true);
 Todo eso dentro de una función; nosotros podemos definir esta función "en trozos más pequeños" para que puedan ser reutilizables y así llamar esa función dentro de otra; ejemplo:
 */
 
-function forConsole(number1,number2) { //Definimos la variable forConsole para que las la función haga una cierta acción en este caso mostrarnos los resultados de la calculadora por consola; esta función se va a encargar sólo de eso, de mostrarnos los resultados por consola
+function forConsole(number1,number2) { //Definimos la función forConsole para que las la función haga una cierta acción en este caso mostrarnos los resultados de la calculadora por consola; esta función se va a encargar sólo de eso, de mostrarnos los resultados por consola
     console.log("Suma: " + (number1+number2));
     console.log("Resta: " + (number1-number2));
     console.log("Multiplicación: " + (number1*number2));
